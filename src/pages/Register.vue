@@ -3,21 +3,22 @@
       <div class="full-width row wrap justify-center items-center content-center">
         <div class="col-auto  self-center q-mb-md">
           <img
-            alt="Quasar logo"
+            alt="Pedidos Ar"
             src="~assets/logo.png"
           >
         </div>
         <div class="col-auto self-center">
-          <login-form-component></login-form-component>
+          <register-form-component></register-form-component>
         </div>
       </div>    
   </q-page>
 </template>
 
 <script>
-import LoginFormComponent from 'components/LoginFormComponent.vue'
+import RegisterFormComponent from '../components/RegisterFormComponent'
+
 export default {
   name: 'PageIndex',
-  components: { LoginFormComponent },
+  components: { RegisterFormComponent },
 }
 </script>

@@ -4,20 +4,20 @@
         <div class="col-auto  self-center q-mb-md">
           <img
             alt="Quasar logo"
-            src="~assets/logo.png"
+            src="~assets/quasar-logo-full.svg"
           >
         </div>
         <div class="col-auto self-center">
-          <login-form-component></login-form-component>
+          <recovery-form-component></recovery-form-component>
         </div>
       </div>    
   </q-page>
 </template>
 
 <script>
-import LoginFormComponent from 'components/LoginFormComponent.vue'
+import RecoveryFormComponent from 'components/RecoveryFormComponent.vue'
 export default {
   name: 'PageIndex',
-  components: { LoginFormComponent },
+  components: { RecoveryFormComponent },
 }
 </script>
